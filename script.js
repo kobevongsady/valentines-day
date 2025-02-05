@@ -41,7 +41,7 @@ function flashRainbowColors(callback) {
 }
 
 // Function to display the cat.gif initially
-function displayCat() {
+function displayMinion() {
     // Get the container where the image will be displayed
     var imageContainer = document.getElementById('image-container');
     var minionImage = new Image();
@@ -59,7 +59,7 @@ function displayminionHeart() {
     // Get the container where the image will be displayed
     var imageContainer = document.getElementById('image-container');
     var minionHeartImage = new Image();
-    minionHeartImage.src = 'minion-heart.gif'; 
+    minionHeartImage.src = 'minionheart.gif'; 
     // Set alternative text for the image (for accessibility)
     minionHeartImage.alt = 'Minion heart';
     minionHeartImage.onload = function() {
